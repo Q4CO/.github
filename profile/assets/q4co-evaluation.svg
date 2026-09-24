@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="630" viewBox="0 0 1120 630" role="img" aria-labelledby="title desc">
+  <title id="title">Q4CO 六维评测框架</title>
+  <desc id="desc">六个维度为解质量、达标时间、跳跃收益、可扩展性、稳健性和资源效率。图中只有评测网格，不含实测分数；评分应保留原始指标、归一化规则、预算和统计不确定性，缺失数据不填零。</desc>
+  <style>
+    text{font-family:"Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei","PingFang SC",Arial,sans-serif;fill:#000}
+    .k{font-size:17px;font-weight:600;letter-spacing:2px}.h{font-size:32px;font-weight:700}.t{font-size:25px;font-weight:700}.b{font-size:19px}.m{font-size:17px}
+    .grid{fill:none;stroke:#000;stroke-width:1.2;stroke-dasharray:4 6}
+  </style>
+  <rect width="1120" height="630" fill="#fff"/>
+  <text x="48" y="40" class="k">Q4CO / EVALUATION FRAMEWORK</text>
+  <text x="48" y="87" class="h">六维画像，比一个总分更重要</text>
+
+  <path d="M356 200L485.904 275V425L356 500L226.096 425V275Z" fill="#fff" stroke="#000" stroke-width="2.2"/>
+  <path d="M356 250L442.603 300V400L356 450L269.397 400V300Z" class="grid"/>
+  <path d="M356 300L399.301 325V375L356 400L312.699 375V325Z" class="grid"/>
+  <path d="M356 200V500M226.096 275L485.904 425M226.096 425L485.904 275" class="grid"/>
+  <g fill="#000"><circle cx="356" cy="200" r="5"/><circle cx="485.904" cy="275" r="5"/><circle cx="485.904" cy="425" r="5"/><circle cx="356" cy="500" r="5"/><circle cx="226.096" cy="425" r="5"/><circle cx="226.096" cy="275" r="5"/></g>
+  <rect x="274" y="319" width="164" height="65" rx="8" fill="#fff"/>
+  <text x="356" y="347" text-anchor="middle" class="t">六维画像</text>
+  <text x="356" y="375" text-anchor="middle" class="m">不填入虚构分数</text>
+
+  <text x="356" y="150" text-anchor="middle" class="t">解质量</text>
+  <text x="356" y="177" text-anchor="middle" class="m">可行性与最优差距</text>
+  <text x="519" y="267" class="t">达标时间</text>
+  <text x="519" y="294" class="m">目标质量与成功概率</text>
+  <text x="519" y="420" class="t">跳跃收益</text>
+  <text x="519" y="447" class="m">相对等预算对照</text>
+  <text x="356" y="543" text-anchor="middle" class="t">可扩展性</text>
+  <text x="356" y="570" text-anchor="middle" class="m">规模与结构变化</text>
+  <text x="193" y="420" text-anchor="end" class="t">稳健性</text>
+  <text x="193" y="447" text-anchor="end" class="m">跨实例、种子与噪声</text>
+  <text x="193" y="267" text-anchor="end" class="t">资源效率</text>
+  <text x="193" y="294" text-anchor="end" class="m">调用与经典资源</text>
+
+  <rect x="740" y="196" width="332" height="307" rx="14" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="766" y="238" class="t">评分使用原则</text>
+  <path d="M766 256H1046" fill="none" stroke="#000" stroke-width="1.3"/>
+  <text x="766" y="294" class="b">01　先给出原始指标</text>
+  <text x="766" y="337" class="b">02　公开归一化规则</text>
+  <text x="766" y="380" class="b">03　同任务、同预算</text>
+  <text x="766" y="423" class="b">04　显示统计不确定性</text>
+  <text x="766" y="466" class="b">05　缺失项不填零</text>
+  <text x="740" y="547" class="b">此图为评测框架，不是性能排名。</text>
+  <text x="48" y="609" class="m">硬件规模、拓扑、精度、误差、深度与吞吐另建需求画像，不混入算法成绩。</text>
+</svg>
